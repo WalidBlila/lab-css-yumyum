@@ -15,7 +15,7 @@ header nav {
 }
 
 header p {
-    font-size: 1em;
+    font-size: 75%;
     margin:0;
 }
 
@@ -25,23 +25,25 @@ header .masthead {
 
 header .menuDeroulant {
     margin-left: auto;
+    display: flex;
+    width: 15%;
 }
 
-header img {
-    display:block;
+header .img {
+    width: 150px;
 }
 
-@media(min-width:900px){
-    .navDesktop{
-        display:flex; 
+
+.navDesktop img {
+  width: 100%;
+ }
+
+.order {
+    padding: 7em;
+    background-color:#b2d73c;
     }
-    .navDesktop img {
-        width:50%;
-    }
-    .order {
-        padding: 7em;
-        background-color:#b2d73c;
-    }
+
+
     .order h2{
         text-transform: uppercase;
         color:white;
@@ -56,6 +58,7 @@ header img {
      }
 
      #address input {
+         background-image: url(../images/pin.svg);
          
 
      }
