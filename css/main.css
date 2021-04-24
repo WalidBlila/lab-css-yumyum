@@ -10,12 +10,12 @@ img {
 
 header nav {
     display:flex;
-    margin-top:1em;
-    margin-bottom: 1em;
+    margin-top:2em;
+    margin-bottom: 2em;
 }
 
 header p {
-    font-size: 0.8em;
+    font-size: 1em;
     margin:0;
 }
 
@@ -40,7 +40,7 @@ header img {
     }
     .order {
         padding: 7em;
-        background-color: green;
+        background-color:#b2d73c;
     }
     .order h2{
         text-transform: uppercase;
@@ -48,3 +48,17 @@ header img {
         margin:0;
         font-size: 2.4em;
         padding-bottom: 0.5em;
+     }
+
+     .order form {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #address input {
+         
+
+     }
+
+
+
